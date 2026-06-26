@@ -26,12 +26,12 @@ export const shallotsImages = {
   piatti2:
     "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-Piatti.webp",
   dishes: [
-    "/food/All dishes.png",
-    "/food/Cauliflower Varuthathu_01.png",
-    "/food/Red Snapper Moilee_01.png",
-    "/food/Mosaru Vade_01.png",
-    "/food/Shallots Goat Sukka_02.png",
-    "/food/Cauliflower Varuthathu_02.png",
+    "/food/Alldishes.png",
+    "/food/CauliflowerVaruthathu_01.png",
+    "/food/RedSnapperMoilee_01.png",
+    "/food/MosaruVade_01.png",
+    "/food/ShallotsGoatSukka_02.png",
+    "/food/CauliflowerVaruthathu_02.png",
   ],
 } as const
 
