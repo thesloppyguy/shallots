@@ -1,0 +1,245 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-display: var(--font-display);
+    --font-heading: var(--font-heading);
+    --font-button: var(--font-button);
+    --font-script: var(--font-script);
+    --font-sans: var(--font-sans);
+    --font-mono: var(--font-mono);
+    --color-brand-dark: hsl(var(--brand-dark));
+    --color-brand-beige: hsl(var(--brand-beige));
+    --color-brand-cream: hsl(var(--brand-cream));
+    --color-sidebar-ring: var(--sidebar-ring);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar: var(--sidebar);
+    --color-chart-5: var(--chart-5);
+    --color-chart-4: var(--chart-4);
+    --color-chart-3: var(--chart-3);
+    --color-chart-2: var(--chart-2);
+    --color-chart-1: var(--chart-1);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --color-foreground: var(--foreground);
+    --color-background: var(--background);
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+    --animate-menu-page-enter-next: menu-page-enter-next 320ms ease-out;
+    --animate-menu-page-enter-prev: menu-page-enter-prev 320ms ease-out;
+}
+
+:root {
+  /* Brand (editorial home page) */
+  --brand-dark: 8 44% 9%;          /* Mulled Wine */
+  --brand-beige: 30 33% 96%;       /* Morning Fog */
+  --brand-cream: 43 63% 89%;       /* Champagne Beige */
+
+  /* Backgrounds */
+  --background: 30 33% 98%;        /* Morning Fog #F6F5F5 */
+  --foreground: 320 20% 10%;       /* Royal Plum */
+
+  /* Cards */
+  --card: 30 33% 98%;
+  --card-foreground: 320 20% 10%;
+
+  --popover: 30 33% 98%;
+  --popover-foreground: 320 20% 10%;
+
+  /* Primary */
+  --primary: 45 97% 42%;           /* Spice Carry #D29D03 */
+  --primary-foreground: 30 33% 98%;
+
+  /* Secondary */
+  --secondary: 38 58% 80%;         /* Saffron Cream */
+  --secondary-foreground: 320 20% 10%;
+
+  /* Muted */
+  --muted: 43 63% 89%;             /* Champagne Beige */
+  --muted-foreground: 25 8% 40%;
+
+  /* Accent */
+  --accent: 43 63% 89%;
+  --accent-foreground: 320 20% 10%;
+
+  /* Destructive */
+  --destructive: 0 72% 48%;
+  --destructive-foreground: 30 33% 98%;
+
+  /* Borders & Inputs */
+  --border: 38 35% 82%;
+  --input: 38 35% 82%;
+  --ring: 45 97% 42%;
+
+  /* Radius */
+  --radius: 0.75rem;
+
+  /* Sidebar */
+  --sidebar: 38 58% 80%;           /* Saffron Cream */
+  --sidebar-foreground: 320 20% 10%;
+  --sidebar-primary: 45 97% 42%;
+  --sidebar-primary-foreground: 30 33% 98%;
+  --sidebar-accent: 43 63% 89%;
+  --sidebar-accent-foreground: 320 20% 10%;
+  --sidebar-border: 38 35% 82%;
+  --sidebar-ring: 45 97% 42%;
+
+  /* Charts */
+  --chart-1: 45 97% 42%;
+  --chart-2: 38 58% 80%;
+  --chart-3: 320 20% 10%;
+  --chart-4: 8 44% 9%;             /* Mulled Wine */
+  --chart-5: 43 63% 89%;
+}
+
+.dark {
+  --background: 8 44% 9%;          /* Mulled Wine */
+  --foreground: 30 33% 98%;
+
+  --card: 320 20% 10%;             /* Royal Plum */
+  --card-foreground: 30 33% 98%;
+
+  --popover: 320 20% 10%;
+  --popover-foreground: 30 33% 98%;
+
+  --primary: 45 97% 42%;
+  --primary-foreground: 320 20% 10%;
+
+  --secondary: 320 15% 16%;
+  --secondary-foreground: 30 33% 98%;
+
+  --muted: 320 15% 16%;
+  --muted-foreground: 30 12% 72%;
+
+  --accent: 45 97% 42%;
+  --accent-foreground: 320 20% 10%;
+
+  --destructive: 0 65% 50%;
+  --destructive-foreground: 30 33% 98%;
+
+  --border: 320 12% 20%;
+  --input: 320 12% 20%;
+  --ring: 45 97% 42%;
+
+  --sidebar: 320 20% 10%;
+  --sidebar-foreground: 30 33% 98%;
+  --sidebar-primary: 45 97% 42%;
+  --sidebar-primary-foreground: 320 20% 10%;
+  --sidebar-accent: 320 15% 16%;
+  --sidebar-accent-foreground: 30 33% 98%;
+  --sidebar-border: 320 12% 20%;
+  --sidebar-ring: 45 97% 42%;
+
+  --chart-1: 45 97% 42%;
+  --chart-2: 38 58% 80%;
+  --chart-3: 30 33% 98%;
+  --chart-4: 43 63% 89%;
+  --chart-5: 320 20% 10%;
+}
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    }
+  body {
+    @apply bg-background text-foreground transition-colors duration-1000;
+    }
+  html {
+    @apply font-sans scroll-smooth;
+    }
+
+  h1 {
+    @apply font-display text-5xl leading-[0.95] font-medium tracking-[0.06em] md:text-7xl lg:text-8xl;
+  }
+
+  h2 {
+    @apply font-heading text-4xl leading-tight font-medium tracking-[0.08em] uppercase;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-medium tracking-[0.06em] uppercase;
+  }
+
+  button,
+  [type="button"],
+  [type="submit"],
+  [type="reset"] {
+    @apply font-button text-xl tracking-[0.14em] uppercase;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), "Cormorant Garamond", ui-serif, Georgia,
+      "Times New Roman", serif;
+  }
+
+  .font-heading {
+    font-family: var(--font-heading), "Cinzel Decorative", Cinzel, ui-serif,
+      Georgia, serif;
+  }
+
+  .font-button {
+    font-family: var(--font-button), "Marcellus SC", Marcellus, ui-serif,
+      Georgia, serif;
+  }
+
+  .font-script {
+    font-family: var(--font-script), "Great Vibes", "Snell Roundhand", cursive;
+  }
+}
+
+@keyframes menu-page-enter-next {
+  from {
+    opacity: 0;
+    transform: rotateY(-8deg) translateX(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateY(0) translateX(0);
+  }
+}
+
+@keyframes menu-page-enter-prev {
+  from {
+    opacity: 0;
+    transform: rotateY(8deg) translateX(-12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateY(0) translateX(0);
+  }
+}
