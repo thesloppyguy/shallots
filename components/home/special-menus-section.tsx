@@ -20,7 +20,7 @@ export function SpecialMenusSection() {
             <div className="overflow-hidden rounded-2xl shadow-sm">
               <div className="aspect-[4/5]">
                 <ImagePlaceholder
-                  src="/assets/dish.jpg"
+                  src="/assets/dish.webp"
                   alt="Weekend brunch menu"
                 />
               </div>
@@ -28,7 +28,7 @@ export function SpecialMenusSection() {
             <div className="overflow-hidden rounded-2xl shadow-sm sm:mt-12">
               <div className="aspect-[4/5]">
                 <ImagePlaceholder
-                  src="/assets/slide2.png"
+                  src="/assets/slide2.webp"
                   alt="Special occasion menu"
                 />
               </div>

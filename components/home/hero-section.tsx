@@ -6,7 +6,7 @@ export function HeroSection() {
     <section className="relative min-h-svh">
       <div className="absolute inset-0">
         <ImagePlaceholder
-          src="/assets/slide2.png"
+          src="/assets/slide2.webp"
           alt="Indian cuisine at Shallots"
           className="scale-105"
           priority

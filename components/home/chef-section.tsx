@@ -8,7 +8,7 @@ export function ChefSection() {
           <div className="overflow-hidden rounded-2xl">
             <div className="aspect-[4/5] lg:aspect-[3/4]">
               <ImagePlaceholder
-                src="/assets/dish.jpg"
+                src="/assets/dish.webp"
                 alt="Chef at Shallots kitchen"
               />
             </div>
@@ -34,7 +34,7 @@ export function ChefSection() {
           <div className="overflow-hidden rounded-2xl sm:col-span-2">
             <div className="aspect-[16/10]">
               <ImagePlaceholder
-                src="/assets/slide2.png"
+                src="/assets/slide2.webp"
                 alt="Tandoori specialties"
               />
             </div>
@@ -42,7 +42,7 @@ export function ChefSection() {
           <div className="overflow-hidden rounded-2xl">
             <div className="aspect-square sm:aspect-auto sm:h-full">
               <ImagePlaceholder
-                src="/assets/dish.jpg"
+                src="/assets/dish.webp"
                 alt="Signature risotto-style dish"
               />
             </div>

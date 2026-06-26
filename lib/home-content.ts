@@ -9,38 +9,38 @@ export const diningSpaces = [
     name: "The Main Dining Room",
     description:
       "A warm, modern space curated in every detail. Perfect for intimate dinners, family gatherings, and celebrations.",
-    image: "/assets/dish.jpg",
+    image: "/assets/dish.webp",
   },
   {
     name: "The Spice Bar",
     description:
       "An inviting counter experience with a view into the kitchen — spices, tandoor flames, and craft cocktails on display.",
-    image: "/assets/slide2.png",
+    image: "/assets/slide2.webp",
   },
   {
     name: "The Garden Patio",
     description:
       "A bright, open-air setting for al fresco dining beneath Austin skies — ideal for brunch and evening gatherings.",
-    image: "/assets/dish.jpg",
+    image: "/assets/dish.webp",
   },
 ] as const
 
 export const signatureDishes = [
   {
     title: "Pancharatan Dal",
-    image: "/assets/dish.jpg",
+    image: "/assets/dish.webp",
   },
   {
     title: "Tandoori Specialties",
-    image: "/assets/slide2.png",
+    image: "/assets/slide2.webp",
   },
   {
     title: "Hyderabadi Biryani",
-    image: "/assets/dish.jpg",
+    image: "/assets/dish.webp",
   },
   {
     title: "Modern Thali",
-    image: "/assets/slide2.png",
+    image: "/assets/slide2.webp",
   },
 ] as const
 

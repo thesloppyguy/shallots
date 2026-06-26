@@ -17,7 +17,7 @@ export function SiteHeader() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
           <a href="#" className="relative z-50 block w-28 md:w-36">
             <ImagePlaceholder
-              src="/assets/shallots-logo-white.png"
+              src="/assets/shallots-logo-white.webp"
               alt={siteConfig.name}
               className="h-auto w-full object-contain"
               priority

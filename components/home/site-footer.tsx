@@ -11,7 +11,7 @@ export function SiteFooter() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <ImagePlaceholder
-              src="/assets/shallots-logo-white.png"
+              src="/assets/shallots-logo-white.webp"
               alt={siteConfig.name}
               className="h-12 w-auto object-contain"
             />

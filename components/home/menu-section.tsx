@@ -27,7 +27,7 @@ export function MenuSection() {
           <div className="overflow-hidden rounded-2xl bg-brand-cream/15 lg:col-span-1">
             <div className="flex aspect-[3/4] flex-col items-center justify-center gap-4 p-8 text-center">
               <ImagePlaceholder
-                src="/assets/shallots-logo-white.png"
+                src="/assets/shallots-logo-white.webp"
                 alt="Shallots"
                 className="h-16 w-auto object-contain opacity-90"
               />
@@ -40,7 +40,7 @@ export function MenuSection() {
           <div className="overflow-hidden rounded-2xl bg-brand-cream/10 lg:col-span-1">
             <div className="flex aspect-[3/4] flex-col items-center justify-center gap-4 p-8 text-center">
               <ImagePlaceholder
-                src="/assets/shallots-logo-white.png"
+                src="/assets/shallots-logo-white.webp"
                 alt="Shallots"
                 className="h-16 w-auto object-contain opacity-70"
               />
@@ -53,7 +53,7 @@ export function MenuSection() {
           <div className="overflow-hidden rounded-2xl lg:col-span-1 lg:row-span-1">
             <div className="aspect-[3/4] md:aspect-auto md:h-full md:min-h-[420px]">
               <ImagePlaceholder
-                src="/assets/dish.jpg"
+                src="/assets/dish.webp"
                 alt="Indian dish at Shallots"
               />
             </div>

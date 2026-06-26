@@ -10,7 +10,7 @@ export function EventsSection() {
               <div className="overflow-hidden rounded-2xl">
                 <div className="aspect-[4/3]">
                   <ImagePlaceholder
-                    src="/assets/slide2.png"
+                    src="/assets/slide2.webp"
                     alt="Private event at Shallots"
                   />
                 </div>
@@ -18,7 +18,7 @@ export function EventsSection() {
               <div className="overflow-hidden rounded-2xl sm:mt-8">
                 <div className="aspect-[4/3]">
                   <ImagePlaceholder
-                    src="/assets/dish.jpg"
+                    src="/assets/dish.webp"
                     alt="Themed evening at Shallots"
                   />
                 </div>

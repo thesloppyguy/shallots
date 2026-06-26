@@ -1,8 +1,8 @@
 export const shallotsImages = {
-  logo: "/assets/raw logo.png",
+  logo: "/assets/raw logo.webp",
   logoFull:
     "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Logo-completo.svg",
-  hero: "/assets/hero.png",
+  hero: "/assets/hero.webp",
   menuCarta:
     "https://www.diodona.it/wp-content/uploads/2025/10/Carta-Diodona-Autunno25-copertina-730x1024.jpg",
   menuVini:
@@ -26,12 +26,12 @@ export const shallotsImages = {
   piatti2:
     "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-Piatti.webp",
   dishes: [
-    "/food/Alldishes.png",
-    "/food/CauliflowerVaruthathu_01.png",
-    "/food/RedSnapperMoilee_01.png",
-    "/food/MosaruVade_01.png",
-    "/food/ShallotsGoatSukka_02.png",
-    "/food/CauliflowerVaruthathu_02.png",
+    "/food/Alldishes.webp",
+    "/food/CauliflowerVaruthathu_01.webp",
+    "/food/RedSnapperMoilee_01.webp",
+    "/food/MosaruVade_01.webp",
+    "/food/ShallotsGoatSukka_02.webp",
+    "/food/CauliflowerVaruthathu_02.webp",
   ],
 } as const
 
