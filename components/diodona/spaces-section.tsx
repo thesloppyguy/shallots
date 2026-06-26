@@ -6,7 +6,7 @@ export function SpacesSection() {
   return (
     <section id="spaces" className="px-6 py-20 md:px-10 md:py-28">
       <div className="mx-auto max-w-6xl">
-        <SectionTitle>Gli ambienti del Ristorante</SectionTitle>
+        <SectionTitle>The Dining Spaces</SectionTitle>
 
         <div className="mt-16 grid gap-16 md:grid-cols-3 md:gap-8 lg:gap-12">
           {diningSpaces.map((space) => (
@@ -33,7 +33,7 @@ export function SpacesSection() {
 
         <div className="mt-16 flex justify-center">
           <Button asChild variant="brand" size="pill">
-            <a href="#">Entra nella tenuta</a>
+            <a href="#">Explore our spaces</a>
           </Button>
         </div>
       </div>

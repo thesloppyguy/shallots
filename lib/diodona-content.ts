@@ -1,6 +1,7 @@
 export const shallotsImages = {
   logo: "/assets/raw logo.png",
-  logoFull: "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Logo-completo.svg",
+  logoFull:
+    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Logo-completo.svg",
   hero: "/assets/hero.png",
   menuCarta:
     "https://www.diodona.it/wp-content/uploads/2025/10/Carta-Diodona-Autunno25-copertina-730x1024.jpg",
@@ -12,7 +13,8 @@ export const shallotsImages = {
     "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-eventi-3-1024x684.webp",
   chefKitchen:
     "https://www.diodona.it/wp-content/uploads/2025/10/diodona-2V1A5203-683x1024.webp",
-  veranda: "https://www.diodona.it/wp-content/uploads/2026/05/Veranda-scaled.jpg",
+  veranda:
+    "https://www.diodona.it/wp-content/uploads/2026/05/Veranda-scaled.jpg",
   camino:
     "https://www.diodona.it/wp-content/uploads/2026/04/Ristorante_camino-scaled.jpeg",
   gelsomini:
@@ -24,109 +26,109 @@ export const shallotsImages = {
   piatti2:
     "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-Piatti.webp",
   dishes: [
-    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-specialita-menu-1-683x1024.webp",
-    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-specialita-menu-3-683x1024.webp",
-    "https://www.diodona.it/wp-content/uploads/2026/05/Pranzo-Ristorante-Varese-1-683x1024.jpg",
-    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-specialita-menu-5-683x1024.webp",
-    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-specialita-menu-risotti-1-682x1024.webp",
-    "https://www.diodona.it/wp-content/uploads/2025/08/Diodona-Ristorante-Malnate-specialita-menu-risotti-2-683x1024.webp",
+    "/food/All dishes.png",
+    "/food/Cauliflower Varuthathu_01.png",
+    "/food/Red Snapper Moilee_01.png",
+    "/food/Mosaru Vade_01.png",
+    "/food/Shallots Goat Sukka_02.png",
+    "/food/Cauliflower Varuthathu_02.png",
   ],
 } as const
 
 export const pastEvents = [
   {
-    date: "venerdì 6 Marzo 2026",
-    title: "SERATA VALTELLINESE | 06.03.2026",
+    date: "Friday, March 6, 2026",
+    title: "VALTELLINA EVENING | 03.06.2026",
     href: "https://www.diodona.it/serata-valtellina-2026/",
   },
   {
-    date: "domenica 22 Febbraio 2026",
-    title: "APRES SKI OLIMPICO – chiusura olimpiadi",
+    date: "Sunday, February 22, 2026",
+    title: "OLYMPIC APRES SKI – closing ceremony",
     href: "https://www.diodona.it/apres-ski-olimpico-2/",
   },
   {
-    date: "venerdì 6 Febbraio 2026",
-    title: "APRES SKI OLIMPICO – apertura olimpiadi",
+    date: "Friday, February 6, 2026",
+    title: "OLYMPIC APRES SKI – opening ceremony",
     href: "https://www.diodona.it/apres-ski-olimpico-1/",
   },
   {
-    date: "domenica 23 Novembre 2025",
-    title: "Tombolata benefica per Sim-patia",
+    date: "Sunday, November 23, 2025",
+    title: "Charity tombola for Sim-patia",
     href: "https://www.diodona.it/tombolata-benefica-per-sim-patia/",
   },
   {
-    date: "domenica 19 Ottobre 2025",
-    title: "Yoga in Limonaia",
+    date: "Sunday, October 19, 2025",
+    title: "Yoga in the Lemon House",
     href: "https://www.diodona.it/yoga-in-limonaia/",
   },
   {
-    date: "venerdì 17 Ottobre 2025",
-    title: "Gli svitati",
+    date: "Friday, October 17, 2025",
+    title: "The Unscrewed",
     href: "https://www.diodona.it/gli-svitati/",
   },
   {
-    date: "domenica 24 Agosto 2025",
-    title: "Il bosco e le stelle",
+    date: "Sunday, August 24, 2025",
+    title: "The forest and the stars",
     href: "https://www.diodona.it/il-bosco-e-le-stelle/",
   },
   {
-    date: "venerdì 8 Agosto 2025",
-    title: "50 sfumature di griglia",
+    date: "Friday, August 8, 2025",
+    title: "50 shades of grilling",
     href: "https://www.diodona.it/50-sfumature-di-griglia/",
   },
   {
-    date: "venerdì 11 Aprile 2025",
-    title: "Et Voilà • Serata francese",
+    date: "Friday, April 11, 2025",
+    title: "Et Voilà • French evening",
     href: "https://www.diodona.it/et-voila-serata-francese/",
   },
   {
-    date: "venerdì 28 Marzo 2025",
-    title: "Serata marchignola",
+    date: "Friday, March 28, 2025",
+    title: "Marchignola evening",
     href: "https://www.diodona.it/serata-marchignola/",
   },
   {
-    date: "sabato 8 Marzo 2025",
-    title: "Apericena tra amiche 2025",
+    date: "Saturday, March 8, 2025",
+    title: "Girls' apericena 2025",
     href: "https://www.diodona.it/apericena-tra-amiche-2025/",
   },
   {
-    date: "venerdì 28 Febbraio 2025",
-    title: "Giulio stappa il Barolo",
+    date: "Friday, February 28, 2025",
+    title: "Giulio uncorks the Barolo",
     href: "https://www.diodona.it/giulio-stappa-il-barolo/",
   },
 ] as const
 
 export const diningSpaces = [
   {
-    name: "la Veranda",
+    name: "Place 1",
     description:
-      "Un ambiente moderno e accogliente, curato in ogni dettaglio. Perfetto anche per cene riservate e piccole cerimonie.",
+      "A modern, welcoming space, curated in every detail. Perfect for private dinners and intimate celebrations.",
     image: shallotsImages.veranda,
     rotate: "-1.47deg",
   },
   {
-    name: "la Sala del Camino",
+    name: "Place 2",
     description:
-      "Accogliente e calda grazie al camino a legna, una selezione di vini a vista, l'affettatrice e la collezione di tazzine da caffè del Nonno.",
+      "Warm and inviting with a wood-burning fireplace, a curated wine selection on display, and thoughtful details throughout.",
     image: shallotsImages.camino,
     rotate: "0deg",
   },
   {
-    name: "la Corte dei Gelsomini",
+    name: "Place 3",
     description:
-      "Un ambiente fresco e luminoso che ospita il ristorante d'estate tra gelsomini, rose ed erbe aromatiche.",
+      "A bright, airy setting for al fresco dining among jasmine, roses, and aromatic herbs.",
     image: shallotsImages.gelsomini,
     rotate: "1deg",
   },
 ] as const
 
 export const navLinks = [
-  { label: "Ristorante", href: "#" },
+  { label: "Restaurant", href: "#" },
   { label: "Location", href: "#" },
-  { label: "Spazio Limonaia", href: "#" },
-  { label: "Matrimoni ed Eventi", href: "#" },
-  { label: "Famiglia", href: "#" },
-  { label: "Album dei Ricordi", href: "#diary" },
+  { label: "Lemon House", href: "#" },
+  { label: "Weddings & Events", href: "#" },
+  { label: "Family", href: "#" },
+  { label: "Memory Album", href: "#diary" },
   { label: "Visit Us", href: "#visit" },
-  { label: "Contatti", href: "#footer" },
+  { label: "Contact", href: "#footer" },
 ] as const

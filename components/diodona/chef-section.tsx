@@ -58,15 +58,14 @@ export function ChefSection() {
     <>
       <section className="px-6 py-20 md:px-10 md:py-28">
         <div className="mx-auto max-w-3xl text-center">
-          <SectionTitle>Il nostro Chef</SectionTitle>
+          <SectionTitle>Our Kitchen</SectionTitle>
           <p className="mt-8 text-lg leading-relaxed">
-            La brigata di Diodona è guidata dall&apos;esperienza e dalla
-            curiosità di Chef Ezio, che trasforma materie prime fresche e
-            stagionali in piatti che riflettono un legame profondo con il
-            territorio del Comasco e del Varesotto. Dalle ricette tradizionali
-            ai tocchi più innovativi, Chef Ezio cura ogni dettaglio: cotture
-            lente, sapori equilibrati e abbinamenti che esaltano la qualità di
-            ogni ingrediente.
+            The brigade at Shallots is guided by experience and curiosity —
+            transforming fresh, seasonal ingredients into dishes that reflect a
+            deep connection to the culinary traditions of India. From
+            time-honored recipes to modern interpretations, every detail is
+            considered: slow cooking, balanced flavors, and pairings that
+            elevate the quality of each ingredient.
           </p>
         </div>
       </section>
@@ -78,7 +77,7 @@ export function ChefSection() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={shallotsImages.chefEzio}
-                alt="Chef Ezio di Diodona"
+                alt="Chef at Shallots kitchen"
                 className="h-auto w-full object-cover"
               />
             </div>
@@ -88,7 +87,7 @@ export function ChefSection() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={shallotsImages.piatti1}
-                alt="Piatto del Ristorante Diodona"
+                alt="Dish from Shallots"
                 className="h-auto w-full object-cover"
               />
             </div>
@@ -99,16 +98,16 @@ export function ChefSection() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={shallotsImages.piatti2}
-                  alt="Specialità risotti del Ristorante Diodona"
+                  alt="Signature dish from Shallots"
                   className="h-auto w-full object-cover"
                 />
               </div>
             </ImgRotate>
             <div className="pointer-events-none absolute right-0 bottom-4 left-0 text-center md:bottom-8">
               <ScriptLabel>
-                i piatti di
+                dishes from
                 <br />
-                chef ezio
+                our kitchen
               </ScriptLabel>
             </div>
           </div>

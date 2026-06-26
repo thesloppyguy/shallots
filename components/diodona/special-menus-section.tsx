@@ -8,15 +8,15 @@ export function SpecialMenusSection() {
     >
       <div className="mx-auto max-w-5xl text-center">
         <SectionTitle>
-          Menu della Domenica
-          <br />e Menu Speciali
+          Sunday Menu
+          <br />& Special Menus
         </SectionTitle>
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed">
-          I nostri menù, pensati per le grandi occasioni, per la domenica in
-          famiglia e per le festività più attese.
+          Our menus, designed for special occasions, Sunday family gatherings,
+          and the most anticipated holidays.
         </p>
         <p className="mt-16 text-sm uppercase tracking-[0.2em] text-brand-dark/50">
-          Contenuto dinamico dal CMS
+          Dynamic content from CMS
         </p>
       </div>
     </section>

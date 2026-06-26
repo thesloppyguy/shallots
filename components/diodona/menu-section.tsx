@@ -10,7 +10,7 @@ export function MenuSection() {
     >
       <div className="mx-auto max-w-5xl">
         <div className="mt-6">
-          <SectionTitle>À la carte</SectionTitle>
+          <SectionTitle>A La Carte</SectionTitle>
         </div>
 
         <BigText>

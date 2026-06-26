@@ -10,14 +10,13 @@ export function SourcingSection() {
   return (
     <section className="bg-brand-beige px-6 py-20 text-brand-dark md:px-10 md:py-28">
       <div className="mx-auto max-w-3xl text-center">
-        <SectionTitle>Filiere autentiche</SectionTitle>
+        <SectionTitle>Authentic Ingredients</SectionTitle>
         <p className="mt-8 text-lg leading-relaxed">
-          Collaboriamo con produttori della zona per portare in tavola formaggi
-          di Casale Roccolo di Binago, farine e uova del Giumelli di Olgiate
-          Comasco e lo zafferano La Collina d&apos;Oro di Faloppio. Questa
-          scelta sostiene i piccoli artigiani del gusto e garantisce ingredienti
-          sempre freschi, fondamentali per una cucina che vuole rimanere
-          autentica e profondamente radicata nel territorio.
+          We source spices, grains, and specialty ingredients from across India
+          and trusted local partners — from Kashmiri saffron and Malabar pepper
+          to heirloom lentils and stone-ground flours. This commitment supports
+          artisan producers and ensures ingredients stay fresh, essential for a
+          cuisine that remains authentic and deeply connected to its roots.
         </p>
       </div>
     </section>
@@ -71,7 +70,7 @@ export function DishCarousel() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={src}
-                alt={`Piatto ${i + 1}`}
+                alt={`Dish ${i + 1}`}
                 className="h-auto w-full object-cover"
               />
             </div>
@@ -83,7 +82,7 @@ export function DishCarousel() {
             type="button"
             onClick={() => scrollBy(-1)}
             className="text-brand-dark transition-opacity hover:opacity-60"
-            aria-label="Precedente"
+            aria-label="Previous"
           >
             <svg
               width="22"
@@ -104,7 +103,7 @@ export function DishCarousel() {
             type="button"
             onClick={() => scrollBy(1)}
             className="text-brand-dark transition-opacity hover:opacity-60"
-            aria-label="Successivo"
+            aria-label="Next"
           >
             <svg
               width="22"
@@ -125,9 +124,9 @@ export function DiarySection() {
   return (
     <section id="eventi-passati" className={cn("px-6 py-20 md:px-10 md:py-28")}>
       <div className="mx-auto max-w-6xl">
-        <SectionTitle>Dal nostro diario dei ricordi</SectionTitle>
+        <SectionTitle>From our memory album</SectionTitle>
         <p className="mt-6 text-center text-lg">
-          Ricordi di storie che abbiamo già vissuto.
+          Memories of stories we have already shared.
         </p>
 
         <div
@@ -137,10 +136,10 @@ export function DiarySection() {
           {pastEvents.map((event) => (
             <article key={event.href} className="flex flex-col">
               <div className="flex items-end gap-2 border-b border-brand-dark/30 pb-2">
-                <p className="shrink-0 text-sm">Data:</p>
+                <p className="shrink-0 text-sm">Date:</p>
                 <ScriptDate>{event.date}</ScriptDate>
               </div>
-              <p className="mt-4 text-sm">Evento:</p>
+              <p className="mt-4 text-sm">Event:</p>
               <p className="-mt-1 text-left text-lg leading-relaxed font-medium md:text-xl">
                 <a href={event.href} className="hover:underline">
                   {event.title}
